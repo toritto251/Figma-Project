@@ -157,7 +157,6 @@ body {
 
 .likes {
     background-image: url('../img/background-block5.png');
-    background-repeat: no-repeat;
     background-position: top;
     display: flex;
     min-height: 480px;
@@ -184,7 +183,6 @@ body {
 
 .team {
     background-image: url('../img/background-block6.png');
-    background-repeat: no-repeat;
     background-position: top;
     display: flex;
     min-height: 1956px;
@@ -524,6 +522,8 @@ option {
 
 
 .footer {
+    background-image: url('../img/background-block7.png');
+    background-position: top;
     display: flex;
     min-height: 660px;
 }
