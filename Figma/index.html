@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- tab icon -->
+    <link rel="shortcut icon" href="./img/tab icon.png" type="image/x-icon">
     <!-- add normalize -->
     <link rel="stylesheet" type="text/css" media="screen" href="./css/normalize.css" />
     <!-- add fonts -->
@@ -182,7 +184,7 @@
                         <div class="gallery__contents">
                             <iframe width="575" height="379" src="https://www.youtube.com/embed/q_th_D4VHC0"
                                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                                allowfullscreen ;></iframe>
                         </div>
                     </div>
                 </div>
@@ -218,7 +220,7 @@
                 <div class="col col-4">
                     <div class="team__content">
                         <div class="content__eclipse">
-                            <div class="team__people team__people--img1-1">
+                            <div class="team__people ">
                                 <img src="./img/block-team 1-1hover.png" alt="">
                             </div>
                         </div>
@@ -248,9 +250,9 @@
                     </div>
                 </div>
                 <div class="col col-4">
-                    <div class="team__content team-1-2">
+                    <div class="team__content team__content--column2">
                         <div class="content__eclipse">
-                            <div class="team__people team__people--img1-1">
+                            <div class="team__people ">
                                 <img src="./img/block-team 1-2hover.png" alt="">
                             </div>
                         </div>
@@ -280,9 +282,9 @@
                     </div>
                 </div>
                 <div class="col col-4">
-                    <div class="team__content team-1-3">
+                    <div class="team__content  team__content--column3">
                         <div class="content__eclipse">
-                            <div class="team__people team__people--img1-1">
+                            <div class="team__people">
                                 <img src="./img/block-team 1-3hover.png" alt="">
                             </div>
                         </div>
@@ -315,7 +317,7 @@
                 <div class="col col-4">
                     <div class="team__content">
                         <div class="content__eclipse">
-                            <div class="team__people team__people--img1-1">
+                            <div class="team__people">
                                 <img src="./img/block-team 2-1hover.png" alt="">
                             </div>
                         </div>
@@ -345,9 +347,9 @@
                     </div>
                 </div>
                 <div class="col col-4">
-                    <div class="team__content team-1-2">
+                    <div class="team__content team__content--column2">
                         <div class="content__eclipse">
-                            <div class="team__people team__people--img1-1">
+                            <div class="team__people ">
                                 <img src="./img/block-team 2-2hover.png" alt="">
                             </div>
                         </div>
@@ -377,9 +379,9 @@
                     </div>
                 </div>
                 <div class="col col-4">
-                    <div class="team__content team-1-3">
+                    <div class="team__content  team__content--column3">
                         <div class="content__eclipse">
-                            <div class="team__people team__people--img1-1">
+                            <div class="team__people ">
                                 <img src="./img/block-team 2-3hover.png" alt="">
                             </div>
                         </div>
@@ -422,39 +424,44 @@
                                 <p>
                                     Dear Amor agency, my name is
                                     <label>
-                                        <input required type="text" name="name" id="input__text" placeholder="">
+                                        <input required type="text" title="Enter your name" name="Name" id="input__text" placeholder="">
                                     </label>
                                     and I am organising a <br>
                                     wedding on <label>
-                                        <input required type="date" name="name" id="input__text" placeholder="">
+                                        <input required type="date" title="Enter date" name="date" id="input__text" placeholder="">
                                     </label>for <label>
-                                        <input required type="number" min="0" max="1000" step="1" value="0" name="name"
+                                        <input required type="number" min="0" max="1000" step="1" value="0" name="guest"
                                             id="input__text" placeholder="">
                                     </label> guests with <br>
-                                    a total budget of <select required name="menu" size="1">
-                                        <option value="first">&pound; 50k</option>
-                                        <option selected="selected" value="second">&pound; 100k</option>
-                                        <option value="third">&pound; 500k</option>
-                                        <option value="fourth">So that was beautiful</option>
-                                    </select> We are looking for a venue in or <br>
+                                    a total budget of 
+                                    <select required name="payment" size="1">
+                                        <option value="50k">&pound; 50k</option>
+                                        <option selected="selected" value="100k">&pound; 100k</option>
+                                        <option value="500k">&pound; 500k</option>
+                                        <option value="So that was beautiful">So that was beautiful</option>
+                                    </select> 
+                                    We are looking for a venue in or <br>
                                     around <label>
-                                        <select required name="menu" size="1">
-                                            <option value="first">Central London</option>
-                                            <option selected="selected" value="second"> Las Vegas (US)</option>
-                                            <option value="third">Fiji, city of Suva</option>
-                                            <option value="fourth">Paris, France</option>
-                                        </select> and we will require <label>
-                                            <input required type="text" name="name" id="input__text" placeholder="">
-                                        </label> for the event.
+                                        <select required name="place" size="1">
+                                            <option value="Central London" >Central London</option>
+                                            <option selected="selected" value="Las Vegas (US)"> Las Vegas (US)</option>
+                                            <option value="Fiji, city of Suva">Fiji, city of Suva</option>
+                                            <option value="Paris, France">Paris, France</option>
+                                        </select>
+                                         and we will require 
+                                         <label>
+                                            <input required type="text" name="idea" id="input__text" placeholder="">
+                                        </label> 
+                                        for the event.
                                 </p>
 
                                 <p>
                                     The event planners at Amor agency can contact me by email on <br>
                                     <label>
-                                        <input required type="email" name="name" id="input__text" placeholder="">
+                                        <input required type="email" name="email" id="input__text" placeholder="">
                                     </label>
                                     and by phone on <label>
-                                        <input required type="tel" name="name" id="input__text" placeholder="" >
+                                        <input required type="tel" name="tel" id="input__text" placeholder="" >
                                     </label>.
                                 </p>
                                 <input type="submit" value="SEND" class="button btn--inline">
@@ -501,7 +508,7 @@
                 <div class="col col-7">
                     <div class="footer__content footer__content--margin-left">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5445.515891945928!2d31.983264053643804!3d46.96644564817154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1542444214247"
-                            width="656" height="412" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            width="656" height="412" frameborder="0" style="border:0" allowfullscreen ></iframe>
                         <!-- <img src="./img/Map.png"  alt="" style="height: 416px";> -->
                     </div>
                 </div>
@@ -526,7 +533,7 @@
                 dots: false,
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                speed: 1000,
+                speed: 1500,
             });
         });
     </script>
